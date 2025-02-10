@@ -1,0 +1,46 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #333;
+    background-color: #f0f0f0;
+} 
+header{
+    background-color: #6f4caf;
+    color: white;
+}
+h1{
+    font-size: 3em;
+    font-weight: bold;
+}
+h2{
+    font-size: 1.5em;
+    color: #FFD700;
+}
+article{
+    background-color: white;
+}
+.css-article>h3{
+    font-size: 30px;
+    color: rosybrown;
+}
+.css-article>p{
+    font-size: 20px;
+    color: rgb(186, 163, 163);
+}
+h4{
+    color: #FF69B4;
+    font-size: 1.5em;
+}
+h3{
+    color: darkorange;
+}
+table{
+    background-color: #f9f9f9;
+}
+th{
+    background-color: #007BFF ;
+    color: white;
+}
+footer{
+    color: #333;
+    background-color: #ccc;
+}

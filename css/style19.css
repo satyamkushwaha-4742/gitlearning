@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color: rgb(253, 243, 243);
+}
+main{
+    margin-left: 240px;
+    margin-top: 30px;
+}
+.image{
+    position: relative;
+}
+
+.card:hover{
+    background-color: white;
+    border-color: white;
+}.head{
+    background-color: white;    
+}
+.first{
+    margin-left: 200px;
+    margin-bottom: 10px;
+}
+.second{
+    padding-bottom: 10px;
+    position: sticky;
+    top: 0px; 
+    background-color: white;
+    margin-bottom: 10px;
+    padding-left: 200px;
+    padding-top:10px;
+}
+.third{
+    height: 200px;
+    background-color: #c7c6c6;
+}
+
+.images2,.images6{
+    height: 30px;
+    width: 30px;
+}
+.images4{
+    height: 30px;
+    width: 30px;
+    position: relative;
+    top: 2px;
+}.dine, .night{
+    position: relative;
+    bottom: 7px;
+    margin-left: 5px;
+    font-size: 15px;
+    color: #363636;
+}
+.delivery{
+    position: relative;
+    bottom: 3px;
+    margin-left: 5px;
+    font-size: 15px;
+    color: #363636;
+}
+.dining, .deliver, .night-life{
+    margin-right: 50px;
+}
+/* .brand{
+    color: rgb(216, 5, 5);
+    margin-right: 50px;
+    font-weight: bold;
+    font-size: 30px;
+} */
+.logo{
+    height: 30px;
+    margin-right: 50px;
+    margin-top: 20px;
+}.your-address{
+    position: relative;
+    right: 40px;
+    bottom: 7px;
+    padding: 0px 10px;
+}
+.loc1{
+    padding-right: 10px;
+    color: #ef4f5fcd;
+}
+.arrow{
+    padding-left: 10px;
+}
+.searching{
+    width: 300px;
+    height: 30px;
+    margin-right: 50px;
+    position: relative;
+    bottom: 7px;
+    /*button ka position relative karna hai*/
+}button{
+    height: 50px;
+    width: 80px;
+    position: relative;
+    bottom: 6px;
+    font-size: 15px;
+    margin-right: 50px;
+    background-color: white;
+    border: none;
+    color: #696969;
+}
+.off{
+    font-size: 30px;
+     color: white;
+    background-color: rgba(218, 43, 16, 0.6);
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+}
+
+.card{
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    border: 20px solid rgb(253, 243, 243);
+    border-radius: 20px;
+}
+
+/*sabko maine yaha par inline bana diya hai diagram ko*/
+.Box{
+    display: inline-block;
+}
+/* image ka radius ,height sab sahi kar diya hai */    
+.img{
+    height: 250px;
+    width: 450px;
+    border-radius: 20px;
+}
+
+.Restaurant_name{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.Restaurant , .food, .Location{
+   position: relative;
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+
+.rating{
+    background-color: green;
+    height: 20px;
+    padding: 3px;
+    position: absolute;
+    right: 5px;
+    color: white;
+    border-radius: 8px;
+}
+/* ye sabhi line no 52 ke vjhaw se change ho raha hai kumki vaha par realative hai*/
+.price, .Distance{
+    position: absolute;
+    right: 5px;
+}
+
+.food, .Place{
+    font-size: 15px;
+    color: rgb(88, 88, 88);
+}
+
+.Distance{
+    font-size: 10px;
+    font-weight: bold;
+}

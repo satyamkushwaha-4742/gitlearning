@@ -1,0 +1,22 @@
+.img1{
+    height: 300px;
+    width: 200px;
+    float: left;
+    clear: right;
+    /* float will make the element float till
+     the space needed on the right and next element will 
+     continue from its side */
+}
+.img2{
+    height: 300px;
+    width: 200px;
+    float: right;
+   /* clear: right; */
+    /* when we have to make two elements up and down on to 
+    the right like here images and utilise the left space 
+    then we use float and clear right for the image to be placed
+     down 1 img on the right side */
+clear: both;
+/* it means if left or right any img is there clear
+    that and take me down */
+}

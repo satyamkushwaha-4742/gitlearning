@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.vertical{
+    background-color: #002d80;
+    height: 37vh;
+    width: 15vw;
+    margin-left: 30vw;
+}
+.horizontal{
+    background-color: #002d80;
+    width: 100vw;
+    height: 25vh;
+    /* margin-top: 10vh; */
+}
+.top-vertical{
+    background-color: #002d80;
+    width: 15vw;
+    height: 37vh;
+    margin-left: 30vw;
+}

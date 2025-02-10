@@ -1,0 +1,23 @@
+.card{
+    width: 40vw;
+    height: 20vh;
+    background-color: aqua;
+    border: 5px rgb(23, 0, 128) solid;
+    padding: 10px;
+    margin: 20px 20px 20px 30vw;
+   
+}
+h2{
+    color: green;
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+.card:hover {
+    background-color: rgb(255, 127, 127);
+    transform: scale(1.1);
+}

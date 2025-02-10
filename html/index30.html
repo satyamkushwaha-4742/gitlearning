@@ -1,0 +1,119 @@
+<!-- multiplication -->
+<!-- li*5 -->
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+<li></li>
+
+<!-- nested (parent>child) -->
+<!-- ul>li*5 -->
+<ul>
+   <li></li>
+   <li></li>
+   <li></li>
+   <li></li>
+   <li></li>
+</ul>
+
+<!-- p>p>p -->
+<p>
+   <p>
+       <p></p>
+   </p>
+</p>
+
+<!-- p>nav>ul>li*5 -->
+<p>
+   <nav>
+       <ul>
+           <li>1</li>
+           <li>2</li>
+           <li></li>
+           <li></li>
+           <li></li>
+       </ul>
+   </nav>
+</p>
+
+<!-- (ul>li*5)*3 -->
+<ul>
+   <li></li>
+   <li></li>
+   <li></li>
+   <li></li>
+   <li></li>
+</ul>
+<ul>
+   <li></li>
+   <li></li>
+   <li></li>
+   <li></li>
+   <li></li>
+</ul>
+<ul>
+   <li></li>
+   <li></li>
+   <li></li>
+   <li></li>
+   <li></li>
+</ul>
+
+<!-- p>nav>(ol>li*5)*3 -->
+<p>
+   <nav>
+       <ol>
+           <li></li>
+           <li></li>
+           <li></li>
+           <li></li>
+           <li></li>
+       </ol>
+       <ol>
+           <li></li>
+           <li></li>
+           <li></li>
+           <li></li>
+           <li></li>
+       </ol>
+       <ol>
+           <li></li>
+           <li></li>
+           <li></li>
+           <li></li>
+           <li></li>
+       </ol>
+   </nav>
+</p>
+
+<!-- side by side (siblings) -->
+<!-- p+nav -->
+<p></p>
+<nav></nav>
+
+<!-- p+h1+nav+h2 -->
+<p></p>
+<h1></h1>
+<nav></nav>
+<h2></h2>
+
+<!-- shortcuts -->
+<!-- h1{my name is satyam} -->
+<h1>my name is satyam</h1>
+
+<!-- . symbol for class -->
+<!-- p.first -->
+<p class="first"></p>
+
+<!-- p.first{hello} -->
+<p class="first">hello</p>
+
+<!-- p.first.second.third -->
+<p class="first second third"></p>
+
+<!-- # symbol for id -->
+<!-- h2#second -->
+<h2 id="second"></h2>
+
+<h3 class="last" id="first"></h3>
+<h3 class="last" id="first"></h3>

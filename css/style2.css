@@ -1,0 +1,30 @@
+/* body{
+    background-color: tomato;
+} */
+
+/* universal selector - includes every tag bina body tag ke */
+*{
+    background-color: rgb(255, 196, 196);
+}
+
+/* grouping selector--kai ko alag karne sebadhiya hai sabko ak sath kar do .. */
+/* h2,h3,p{
+    background-color: aqua;
+} */
+
+/* descendant selector --uss section ke pura poaragraph tag ka color change kar dega vaha par */
+section p{
+    color: tomato;
+}
+/* child selector--sirf usi ka child ka change hoga  */
+section>p{
+    color: teal;
+}
+
+/* attribute selector */
+h2[draggable="true"]{
+    background-color: aqua;
+}
+h2[contenteditable="true"]{
+    background-color: yellow;
+}

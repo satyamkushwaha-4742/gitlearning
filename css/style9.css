@@ -1,0 +1,25 @@
+.first{
+    background-color: orange;
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+}
+.second{
+    background-color: cadetblue;
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+
+}
+span{
+    background-color: palevioletred;
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+    display: block; /*now it behaves like block*/
+}
+/* height width assigned to span will not be applied it
+ will take the space that is needed */
+/* margin works horizontally to span not vertically */
+
+/* display ka ek option hota h inline-block jisme vo behave inline ki tarah krta hai bas height width can be assigned */

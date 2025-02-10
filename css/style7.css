@@ -1,0 +1,45 @@
+h1{
+    background-color: rgb(222, 135, 135);
+     border-width: 50px;
+    /* border-style: solid;
+    border-width: 2px;
+    border-color: blueviolet; */
+    /* shortcut instead of these 3 properties*/
+    border: 2px rgb(165, 142, 42) solid;
+    
+}
+p{
+    background-color: rgb(189, 142, 189);
+    border-radius: 3px;
+    padding: 10px;  /*10px from every side*/
+    border-width: 2px 3px; /*first value for top&bottom and 2nd value for left&right*/
+    /* if 3 values - top, right&left,bottom */
+    /* if 4 values - top,right,bottom,left */
+    /* same with padding */
+    border-style: solid;
+    border-color: rgb(211, 10, 208);
+}
+ul{
+    background-color:cadetblue;
+    border-left: 14px blue solid;
+    /* only creates a border in left with these style */
+    box-sizing: border-box;
+    /* content box means width & height divides to only content 
+    but when selected to border box then border padding will be 
+    given then remaining width & height will be given to content */
+}
+
+    /* Box model */
+    /* paragraph is content */
+
+    /* padding is just outer than content box */
+    
+    /* border is outer than padding */
+
+    /* margin is outer than border creating a space between 
+    different content boxes from different directions if increased */
+
+    /* margin doesnt fully affects on box model because if
+     margin increased or decreased it doesnt changes content box */
+
+    /* in inspect every size is shown as width*height */

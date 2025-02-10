@@ -1,0 +1,45 @@
+h1{
+    color: orange;
+    background-color: aqua;
+
+    /* text-align: center; */
+        /* left,right,center,justify */
+}
+.container{
+    text-align: center;
+    /* for block element - only text is aligned not the block */
+    /* for inline element - not only text the element is also aligned */
+    background-color: aquamarine;
+}
+
+.container > p {
+    text-align-last: right;
+    /* last line is aligned  */
+}
+
+.container > h2 {
+    /* direction: rtl; */
+    /* it defines how the text should be read and written as he has to write normally and we will change the direction*/
+    /* unicode-bidi: bidi-override; */
+
+    text-decoration-line: overline underline;
+    /* underline,throw */
+    text-decoration-color: black;
+    text-decoration-style: dashed;
+    text-transform: lowercase;
+}
+/* span{ */
+    /* vertical-align: sub; */
+    /* subscript,superscript */
+/* } */
+
+p{
+    text-indent: 200px;
+    letter-spacing: 5px;
+    /* line-height: 30px; */
+    /* word-spacing: 10px; */
+    /* white-space: 2px; */
+
+    /* text-shadow: 1.2px 0px; */
+        /* to understand text shadow first box shadow is imp */
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>inline & internal CSS</title>
+    <!-- internal CSS -->
+    <style>
+        h1{ /* this is a selector */
+            color: aqua;
+            background-color: black;
+            /* inline has given more priority thats why it will not be changed even if we use internal for the same */
+        }
+        ul{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <!-- 3 types of CSS -->
+    <!-- inline,internal,external -->
+
+
+    <!-- inline CSS-->
+    <h1 style="color: rgb(108, 19, 19); background-color: rgb(43, 226, 226);">Fav K-drama...</h1>
+    <ul style="color: rgb(193, 222, 135); background-color: rgb(139, 19, 19);">
+        <li>Crash Landing on You</li>
+        <li>Queen of Tears</li>
+        <li>My Demon</li>
+        <li>A Time Called You</li>
+        <li>See You in my 19th Life</li>
+    </ul>
+
+    <!-- inline css has more properties than font tag but same code readability 
+     problem is there, it is not a good practice to use inline css -->
+
+    <h1>Must Watch These</h1>
+    <!-- because of the internal selector changes we can see here also because it will be applied to all h1 tags and here no inline styling is there -->
+</body>
+</html>

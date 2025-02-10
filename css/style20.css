@@ -1,0 +1,269 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: rgb(213, 206, 206);
+}
+main{
+    margin-left: 240px;
+    margin-top: 30px;
+}
+.first{
+    margin-left: 200px;
+    margin-bottom: 10px;
+}
+.second{
+    padding-bottom: 10px;
+    position: sticky;
+    top: 0px; 
+    background-color: white;
+    margin-bottom: 20px;
+    padding-left: 200px;
+    padding-top:10px;
+}
+.third{
+    height: 200px;
+    background-color: #F8F8F8;
+    padding: 15px 0px 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 450px;
+    width: 1300px;
+    margin-left: 200px;
+}
+/* .brand{
+    color: rgb(216, 5, 5);
+    margin-right: 50px;
+    font-weight: bold;
+    font-size: 30px;
+} */
+.logo{
+    height: 30px;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+.your-address{
+    position: relative;
+    right: 40px;
+    bottom: 7px;
+    padding: 0px 10px;
+}
+.loc1{
+    padding-right: 10px;
+    color: #ef4f5fcd;
+}
+.arrow{
+    padding-left: 10px;
+}
+.searching{
+    width: 300px;
+    height: 30px;
+    margin-right: 50px;
+    position: relative;
+    bottom: 7px;
+}
+button{
+    height: 50px;
+    width: 80px;
+    position: relative;
+    bottom: 6px;
+    font-size: 15px;
+    margin-right: 50px;
+    background-color: white;
+    border: none;
+    color: #696969;
+}
+button:hover{
+    color: #1C1C1C;
+}
+.images2,.images6{
+    height: 30px;
+    width: 30px;
+}
+.images4{
+    height: 30px;
+    width: 30px;
+    position: relative;
+    top: 2px;
+}
+.area{
+    padding-bottom: 40px;
+    color: #828282;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.area:hover{
+    color: #Ef4F5F;
+    cursor: pointer;
+}
+.dine{
+    color: #Ef4F5F;
+    position: relative;
+    bottom: 7px;
+    margin-left: 5px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.night{
+    position: relative;
+    bottom: 7px;
+    margin-left: 5px;
+    font-size: 15px;
+    color: #696969;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.delivery{
+    position: relative;
+    bottom: 3px;
+    margin-left: 5px;
+    font-size: 15px;
+    color: #696969;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.dine:hover{
+    color: #Ef4F5F;
+    cursor: pointer;
+}
+.delivery:hover{
+    color: #Ef4F5F;
+    cursor: pointer;
+}
+.night:hover{
+    color: #Ef4F5F;
+    cursor: pointer;
+}
+.dining, .deliver, .night-life{
+    margin-right: 50px;
+}
+.third>h2{
+    padding-bottom: 26px;
+    font-size: 30px;
+    color: #1C1C1C;
+}
+.third>p{
+    font-size: 18px;
+    color: #2c0606;
+}
+.collection-card{
+    height: 320px;
+    width: 260px;
+    display: inline-block;
+    padding-top: 13px;
+    padding-right: 20px;
+}
+.coll-card-img{
+    height: 320px;
+    width: 260px;
+    border-radius: 10px;
+}
+.above-card{
+    position: relative;
+    bottom: 52px;
+    padding-left: 10px;
+    color: white;
+    padding: 0px 16px;
+    padding-bottom: 10px;
+    padding-top: 2px;
+    background-color: #1c1c1c7d;
+    border-radius: 10px;
+}
+.head{
+    background-color: white;    
+}
+.box{
+    display: inline-block;
+}
+.card-heading{
+    color: #1C1C1C;
+    font-size: 30px;
+    margin: 10px 0px 32px;
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card{
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    border: 7px solid rgb(213, 206, 206);   
+    border-radius: 20px;
+}
+.card:hover{
+    background-color: white;
+    border-color: white;
+    box-shadow: 1px 1px 10px 1px gray;
+}
+.image{
+    position: relative;
+}
+.img{
+    height: 248px;
+    width: 328px;
+    border-radius: 20px;
+    object-fit: cover; /*to make the image zoom*/
+}
+.off{
+    position: absolute;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:black;
+    /* background-color:rgba(13, 25, 255, 0.756); */
+    background-color: rgb(255, 255, 0,0.7);
+    padding: 3px 15px 1px 5px;
+    bottom: 22px;
+    filter: invert(100%) brightness(100%);
+
+}
+.restaurant{
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.name{
+    font-size: 17px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1C1C1C;
+}
+.rating{
+    background-color: #267E3E;
+    height: 10px;
+    padding: 1px 4px 8px;
+    color: white;
+    position: absolute;
+    right: 5px;
+    border-radius: 7px;
+}
+.food{
+    position: relative;
+}
+.cusine{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #696969;
+    padding: 0px 0px 4px;
+}
+.price{
+    position: absolute;
+    right: 5px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #696969;
+    padding: 0px 0px 4px;
+}
+.location{
+    position: relative;
+}
+.address{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #9C9C9C;
+    padding: 0px 0px 4px;
+}
+.distance{
+    position: absolute;
+    right: 5px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #363636;
+    padding: 2px 5px 3px;
+} 

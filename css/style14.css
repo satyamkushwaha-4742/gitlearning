@@ -1,0 +1,59 @@
+/* position - static,relative,absolute,fixed,sticky */
+
+.container{
+    background-color: darkgray;
+    margin-left: 500px;
+    margin-top: 300px;
+    position: relative;
+    height: 1000px;
+}
+.box{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+}
+.box1{
+    background-color: red;
+    /* position: relative;
+    top: 10px;
+    right: 10px; */
+}
+/* position relative shifts element from its 
+original position of the directions specified 
+ like right :10px so it moves 10px from right of its original 
+8 position before and the original position remains same it
+ is not occupied by any other element*/
+/* position static doesnt change anything
+ then if top,right any specified it will not move */
+
+.box2{
+    background-color: yellow;
+    /* position: absolute;
+    top: 20px;
+    left: 20px; */
+}
+/* position absolute leaves its position 
+and that space can be allocated to another 
+element and if specified it checks its parent
+ element has a position mentioned then it shifts
+  from parent element has relative if not (if static) 
+  then it shifts from the viewport - here parent is container
+   div and it is relative in position so it is taking that 
+   position and shifting top and left from container box*/
+.box3{
+    background-color: green;
+    /* position: fixed;
+    top: 20px; */
+}
+/* position fixed is calculated from viewport always and shifts to 
+direction specified from viewport and the position of element is f
+ixed even if page scrolls fixed also leave its position*/
+.box4{
+    background-color: orange;
+    position: sticky;
+    top: 40px;  /*top should be mentioned necessary
+     for position sticky*/
+    left: 20px;
+}
+/* position sticky stay fixed but for this
+ container div only not for other */

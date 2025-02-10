@@ -1,0 +1,42 @@
+/* general css for desktop*/
+.container{
+    background-color: red;
+    /* height: 400px;
+    width: 400px; */
+    display: flex;
+}
+
+        /* particular device css */
+        /* this will override when the condition is met */
+        /* @media(max-width:500px){
+            .container{
+                background-color: blueviolet;
+                height: 200px;
+                width: 200px;
+            }
+        } */
+
+.box{
+    color: white;
+    background-color: cadetblue;
+    height: 300px;
+    width: 300px;
+    margin: 30px;
+}
+
+/* mobile phone */
+@media(max-width:600px){
+    .container{
+        flex-direction: column;
+    }
+}
+
+/* tablet */
+/* @media(min-width:601px)and(max-width:900px){
+    .container{
+        
+    }
+} */
+
+/* width,height,orientation - portrait,landscape,aspect-ratio (media query properties) */
+/* website can be mobile first approach or desktop first approach(media is weitten for mobile, general for desktop) */

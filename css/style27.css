@@ -1,0 +1,18 @@
+.container{
+    height: 800px;
+    width: 1500px;
+    background-color: burlywood;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    height: 300px;
+    width: 300px;
+    background-color: violet;
+    margin: 10px;
+    
+    box-shadow: -15px 15px 5px 10px rgb(117, 94, 118);
+    /*inset(andar ki trf shadow-optional), horizontal, vertical, blur radius, blur spread, color*/
+}

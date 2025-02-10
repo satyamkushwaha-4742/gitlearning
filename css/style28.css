@@ -1,0 +1,21 @@
+.container{
+    height: 800px;
+    width: 1500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    height: 300px;
+    width: 500px;
+    background-color: thistle;
+    transition-property: all;
+    transition-duration: 3s;
+    transition-timing-function: ease;
+    /* transition-delay: 1s; */
+}
+.box:hover{
+    background-color: skyblue;
+    width: 600px;
+    height: 400px;
+}

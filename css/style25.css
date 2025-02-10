@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* header */
+.logo{
+    display: flex;
+    justify-content: space-between;
+    background-color: #DC354B;
+    padding: 1rem;
+}
+h1{
+    color: white;
+}
+.right button{
+   margin-left: 1rem;
+   margin-top: 0.4rem;
+   font-size: 1.25rem;
+   color: white;
+   background-color: #DC354B; 
+   cursor:pointer;
+}
+.search{
+    display: flex;
+    justify-content: center;
+    padding: 2rem 0rem;
+    background-color: slategray;
+}/*dabba*/
+.searching{
+    width: 400px;
+    max-width: 60%;
+    /* it is only applicable when the (60% of the screen) is smaller than the width assigned 
+    to chipkega nhi y kabhi end se */
+    font-size: 1rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+}/*button */
+.search > button{
+    margin-left: 0.5rem;
+    font-size: 1.2rem;
+    background-color: #DC354B;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 7px;
+}
+/* main */
+.hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./heroBG.jpg);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.hero > h2{
+    color: white;
+    font-size: 2rem;
+    background-color: rgba(0, 0, 0, 0.235);
+}
+.hero > button{
+    background-color: #DC354B;
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin-top: 1rem;
+    padding: 0.5rem;
+    border-radius: 8px;
+}
+.mover{
+    text-align: center;
+    padding: 1rem;
+}
+.mover > h2{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.images{
+    height: 330px;
+}
+.movie{
+    display: flex;
+    overflow-x: scroll;
+}
+.card{
+    border: 0.5rem solid rgb(191, 189, 189);
+    background-color:rgb(191, 189, 189) ;
+    text-align: center;
+    margin-left: 1rem;
+    border-radius: 10px;
+    margin-bottom: .5rem;
+}
+.card > h3{
+    font-size: 1.2rem;
+}
+.bottom{
+    margin-top: 2rem;
+    text-align: center;
+}
+.bottom > img{
+    max-width: 80%;
+    /* for making it responsive its important  jab utna me hi ham decrease karte hai */
+}
+
+/* media queries */
+@media(max-width:500px){
+    .logo{
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: center;
+        /* here align items work bcz direction is column and we wanted it in the center in horizontal way that means cross axis of column */
+    }
+    .right{
+        display: flex;
+        flex-direction: column;
+        padding-top: 1rem;
+    }
+    .movie{
+        flex-direction: column;
+    }
+}

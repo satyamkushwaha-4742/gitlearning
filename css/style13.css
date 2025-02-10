@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+}
+.first{
+    background-color: green;
+}
+.second{
+    background-color: white;
+}
+.third{
+    background-color: orange;
+}
+.first,.second,.third{
+    width: 31.16vw;
+    height: 99.536vh;
+    display: inline-block;
+    
+}

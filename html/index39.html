@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Media</title>
+</head>
+<body>
+<!-- to add audio -->
+    <audio src="./Wavy_1.mp3" controls></audio>
+    <!-- 2nd method -->
+    <audio controls>
+        <source src="./(loonaz.com) check kar parmish verma ringtone.mp3">
+
+        <!-- backup audio if 1st doesnt plays we can add more backups also to play
+         agar phela nhi baja to dusra bajega -->
+        <source src="">
+        
+        <!-- backup text to display if none plays -->
+        sorry audio can not be played due to error
+    </audio>
+
+<!-- to add video -->
+    <video src="./ayansh.mp4"  height="300" width="400" controls></video>
+    <!-- 2nd method -->
+    <video controls height="400" width="400" autoplay muted>
+        <source src="./ayansh.mp4">
+
+        <!-- backup video if 1st doesnt plays we can add more backups also-->
+        <source src=""> 
+
+        <!-- backup text to display if none plays -->
+        sorry video can not be played due to error
+    </video>
+</body> 
+</html>

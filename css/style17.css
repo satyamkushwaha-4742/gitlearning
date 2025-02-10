@@ -1,0 +1,20 @@
+div{
+    height: 400px;
+    width: 400px;
+    background-color: aqua;
+
+    overflow: visible;
+    /* by default overflow is visible */
+
+    overflow: hidden;
+    /* overflow text will be hidden */
+    
+    overflow: scroll;
+    /* overflow text will be scrolled in the container 
+    not visible out of the container */
+
+    overflow: auto;
+    /* overflow auto ensures if overflow happens 
+    it will handle and add scroll bar else not explicitly we 
+    dont have to handle that */
+}

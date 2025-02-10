@@ -1,0 +1,72 @@
+.container{
+    height: 760px;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: row; 
+    align-items: baseline;
+
+    /* flex-direction: column; */
+             /*by default its row*/
+            /* when parent is set to flex its elements are displayed in the main axis that is horizontal */
+            /* and vertical will be cross axis */
+            /* main axis can also be changed to vertical by using column*/
+            /* then cross axis will be horizontal */
+            /* also start from the end and the boxes will be reversed like box 1 at the end by changing flex direction to row reverse or column reverse */
+
+    
+    /* justify-content: end; */
+            /* also you can start from the end but order will be same using*/
+            /* also no need of margins now to shift boxes to center it can be done through justify content with the main axis */
+            /* space around will make sure to have same gap on the left and right for every element */
+            /* space-between make 2 boxes at corner and in between every element will have same space*/
+            /* space evenly will make sure every boxes are at same spacing evenly */
+
+    /* align-items:end ; */
+            /* align items works with the cross axis */
+            /* stretch - if height of elements is set it doesnt work else elements will stretch its height to the parent element around cross axis (by default) */
+            /* baseline -  see index.html*/
+    flex-wrap: wrap;
+            /* to make site responsive and elements will adjust and move down when size of device became smaller */
+            /* agr space nahi hai to next line me jaao small size ke mt ho */
+            /* by default its no wrap */
+            /* wrap reverse does the work from the bottom */
+       
+    /* to shift all elements to exact center to the page along with the main as well as cross axis */
+    justify-content: center;  /*main axis*/
+    align-items: center;  /*cross axis*/
+
+    align-content: center;
+            /* when using flex-wrap:wrap we can align contents which are wrapped to next line using the align content for cross axis, it aligns the space of content also space-evenly,space-between,space-around same as before but for flex wrap contents */
+}
+
+
+
+.box{
+    height: 150px;
+    width: 150px;
+    border: 2px solid black;
+    margin: 5px;
+}
+
+/* baseline */
+/* .first{
+    margin: 10px;
+    font-size: 50px;
+}
+
+.second{
+    font-size: 25px;
+} */
+
+.box1{
+    background-color: yellow;
+}
+.box2{
+    background-color: green;
+}
+.box3{
+    background-color: pink;
+}
+.box4{
+    background-color: red;
+}

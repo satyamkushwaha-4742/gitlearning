@@ -1,0 +1,50 @@
+.container{
+    display: flex;
+    height: 760px;
+    background-color: palegreen;
+    justify-content: center;
+    align-items: center ;
+}
+.box{
+    height: 150px;
+    width: 150px;
+    border: 2px solid black;
+    margin: 5px;
+}
+.box1{
+    background-color: darkorange;
+    /* flex-grow: 1; */
+    align-self: flex-end;
+}
+.box2{
+    background-color: skyblue;
+    /* flex-grow: 3; */
+        /* available space to occupy by flexgrow applied element relative to other elements*/
+        /* by default it is 0 for everyone takes space accoding to their width */
+        /* if two elements has flexgrow set to 1 they will take the available space half half */
+        /* if one element is 3 and one is set to 1 so they will grow by their respective times when screen size increases to the main axis*/
+}
+.box3{
+    background-color: slateblue;
+    order: -1;
+        /* by default element's order is 0 */
+        /* we can make it -1 to bring it to first in this case */
+    /* flex-shrink: 2; */
+        /* flex shrink works as same as flex grow */
+        /* here box3 will shrink 2 times faster compared to others when screen size decreases */
+    
+    /* flex shorthand */
+        /* flex:2 2 200px */
+        /* flex grow, flex shrink, flex basis */
+}
+.box4{
+    background-color: rosybrown;
+    /* flex-basis: 300px; */
+        /* even if height is set it will overshadow it and increase to the main axis */
+    align-self: flex-start;
+        /* it shift particular element to required position with cross axis */
+}
+
+/* MEDIA QUERY */
+        /* through flex properties when we use a website on mobile it shifts elements to next line for allignment for small screen sizes but sometimes we want some last element at top in small screen sizes as laptop screen can display everything at one page but mobile cant like buy now button is at rightest part so we use media query not flex as it will be shifted to the end in mobile screen */
+        /* media query gives flexibility to write different css for different devices */
